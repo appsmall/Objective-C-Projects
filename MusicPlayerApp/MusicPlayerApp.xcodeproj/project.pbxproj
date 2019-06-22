@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FE627D21F652E2100CE8AF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE627D11F652E2100CE8AF9 /* main.m */; };
+		2FE627D51F652E2100CE8AF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE627D41F652E2100CE8AF9 /* AppDelegate.m */; };
+		2FE627DB1F652E2100CE8AF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE627D91F652E2100CE8AF9 /* Main.storyboard */; };
+		2FE627DD1F652E2100CE8AF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE627DC1F652E2100CE8AF9 /* Assets.xcassets */; };
+		2FE627E01F652E2100CE8AF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE627DE1F652E2100CE8AF9 /* LaunchScreen.storyboard */; };
+		2FE627E91F652E3700CE8AF9 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE627E81F652E3700CE8AF9 /* MediaPlayer.framework */; };
+		2FE627EC1F652EE200CE8AF9 /* BG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FE627EB1F652EE200CE8AF9 /* BG.jpg */; };
+		2FE627F21F65325500CE8AF9 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FE627F11F65325500CE8AF9 /* play.png */; };
+		2FE627F61F6534CB00CE8AF9 /* rewind.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FE627F51F6534CB00CE8AF9 /* rewind.png */; };
+		2FE627F81F65351C00CE8AF9 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FE627F71F65351C00CE8AF9 /* forward.png */; };
+		2FE627FB1F653D4E00CE8AF9 /* MusicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE627FA1F653D4E00CE8AF9 /* MusicVC.m */; };
+		2FE627FD1F65425300CE8AF9 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FE627FC1F65425300CE8AF9 /* pause.png */; };
+		2FE627FF1F65737800CE8AF9 /* Cheez_Badi-Neha_Kakkar-Udit_Narayan-www.Mp3Mad.Com.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FE627FE1F65737800CE8AF9 /* Cheez_Badi-Neha_Kakkar-Udit_Narayan-www.Mp3Mad.Com.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FE627CD1F652E2100CE8AF9 /* MusicPlayerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE627D11F652E2100CE8AF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FE627D31F652E2100CE8AF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FE627D41F652E2100CE8AF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FE627DA1F652E2100CE8AF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FE627DC1F652E2100CE8AF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FE627DF1F652E2100CE8AF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FE627E11F652E2100CE8AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FE627E81F652E3700CE8AF9 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		2FE627EB1F652EE200CE8AF9 /* BG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BG.jpg; sourceTree = "<group>"; };
+		2FE627F11F65325500CE8AF9 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		2FE627F51F6534CB00CE8AF9 /* rewind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rewind.png; sourceTree = "<group>"; };
+		2FE627F71F65351C00CE8AF9 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		2FE627F91F653D4E00CE8AF9 /* MusicVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicVC.h; sourceTree = "<group>"; };
+		2FE627FA1F653D4E00CE8AF9 /* MusicVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicVC.m; sourceTree = "<group>"; };
+		2FE627FC1F65425300CE8AF9 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		2FE627FE1F65737800CE8AF9 /* Cheez_Badi-Neha_Kakkar-Udit_Narayan-www.Mp3Mad.Com.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cheez_Badi-Neha_Kakkar-Udit_Narayan-www.Mp3Mad.Com.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FE627CA1F652E2100CE8AF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE627E91F652E3700CE8AF9 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FE627C41F652E2100CE8AF9 = {
+			isa = PBXGroup;
+			children = (
+				2FE627CF1F652E2100CE8AF9 /* MusicPlayerApp */,
+				2FE627CE1F652E2100CE8AF9 /* Products */,
+				2FE627E71F652E3700CE8AF9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2FE627CE1F652E2100CE8AF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FE627CD1F652E2100CE8AF9 /* MusicPlayerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FE627CF1F652E2100CE8AF9 /* MusicPlayerApp */ = {
+			isa = PBXGroup;
+			children = (
+				2FE627D31F652E2100CE8AF9 /* AppDelegate.h */,
+				2FE627D41F652E2100CE8AF9 /* AppDelegate.m */,
+				2FE627D91F652E2100CE8AF9 /* Main.storyboard */,
+				2FE627DC1F652E2100CE8AF9 /* Assets.xcassets */,
+				2FE627DE1F652E2100CE8AF9 /* LaunchScreen.storyboard */,
+				2FE627E11F652E2100CE8AF9 /* Info.plist */,
+				2FE627EA1F652EC100CE8AF9 /* Assets */,
+				2FE627D01F652E2100CE8AF9 /* Supporting Files */,
+				2FE627F91F653D4E00CE8AF9 /* MusicVC.h */,
+				2FE627FA1F653D4E00CE8AF9 /* MusicVC.m */,
+			);
+			path = MusicPlayerApp;
+			sourceTree = "<group>";
+		};
+		2FE627D01F652E2100CE8AF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FE627D11F652E2100CE8AF9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FE627E71F652E3700CE8AF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FE627E81F652E3700CE8AF9 /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FE627EA1F652EC100CE8AF9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2FE627FE1F65737800CE8AF9 /* Cheez_Badi-Neha_Kakkar-Udit_Narayan-www.Mp3Mad.Com.mp3 */,
+				2FE627EB1F652EE200CE8AF9 /* BG.jpg */,
+				2FE627F11F65325500CE8AF9 /* play.png */,
+				2FE627F51F6534CB00CE8AF9 /* rewind.png */,
+				2FE627F71F65351C00CE8AF9 /* forward.png */,
+				2FE627FC1F65425300CE8AF9 /* pause.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FE627CC1F652E2100CE8AF9 /* MusicPlayerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FE627E41F652E2100CE8AF9 /* Build configuration list for PBXNativeTarget "MusicPlayerApp" */;
+			buildPhases = (
+				2FE627C91F652E2100CE8AF9 /* Sources */,
+				2FE627CA1F652E2100CE8AF9 /* Frameworks */,
+				2FE627CB1F652E2100CE8AF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicPlayerApp;
+			productName = MusicPlayerApp;
+			productReference = 2FE627CD1F652E2100CE8AF9 /* MusicPlayerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FE627C51F652E2100CE8AF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = UncleBar;
+				TargetAttributes = {
+					2FE627CC1F652E2100CE8AF9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2FE627C81F652E2100CE8AF9 /* Build configuration list for PBXProject "MusicPlayerApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FE627C41F652E2100CE8AF9;
+			productRefGroup = 2FE627CE1F652E2100CE8AF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FE627CC1F652E2100CE8AF9 /* MusicPlayerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FE627CB1F652E2100CE8AF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE627FF1F65737800CE8AF9 /* Cheez_Badi-Neha_Kakkar-Udit_Narayan-www.Mp3Mad.Com.mp3 in Resources */,
+				2FE627F61F6534CB00CE8AF9 /* rewind.png in Resources */,
+				2FE627E01F652E2100CE8AF9 /* LaunchScreen.storyboard in Resources */,
+				2FE627FD1F65425300CE8AF9 /* pause.png in Resources */,
+				2FE627F81F65351C00CE8AF9 /* forward.png in Resources */,
+				2FE627EC1F652EE200CE8AF9 /* BG.jpg in Resources */,
+				2FE627F21F65325500CE8AF9 /* play.png in Resources */,
+				2FE627DD1F652E2100CE8AF9 /* Assets.xcassets in Resources */,
+				2FE627DB1F652E2100CE8AF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FE627C91F652E2100CE8AF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE627FB1F653D4E00CE8AF9 /* MusicVC.m in Sources */,
+				2FE627D51F652E2100CE8AF9 /* AppDelegate.m in Sources */,
+				2FE627D21F652E2100CE8AF9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FE627D91F652E2100CE8AF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FE627DA1F652E2100CE8AF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FE627DE1F652E2100CE8AF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FE627DF1F652E2100CE8AF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FE627E21F652E2100CE8AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2FE627E31F652E2100CE8AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FE627E51F652E2100CE8AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MusicPlayerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UncleBar.MusicPlayerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FE627E61F652E2100CE8AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MusicPlayerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UncleBar.MusicPlayerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FE627C81F652E2100CE8AF9 /* Build configuration list for PBXProject "MusicPlayerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE627E21F652E2100CE8AF9 /* Debug */,
+				2FE627E31F652E2100CE8AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FE627E41F652E2100CE8AF9 /* Build configuration list for PBXNativeTarget "MusicPlayerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE627E51F652E2100CE8AF9 /* Debug */,
+				2FE627E61F652E2100CE8AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FE627C51F652E2100CE8AF9 /* Project object */;
+}
